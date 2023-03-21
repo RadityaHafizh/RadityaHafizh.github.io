@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>My Portfolio | Raditya Hafizh Habibi</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icon Css -->
+    <link rel="stylesheet" href="icon/bootstrap-icons.css" />
+    <!-- Script JS -->
+    <script src="Eksternal.js"></script>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Raditya Hafizh H</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a onclick="home()" class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="biodata()" class="nav-link" href="#biodata">Biodata</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="gallery()" class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="form()" class="nav-link" href="#forms">Forms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir Navbar-->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/Foto1.jpg" alt="Raditya Hafizh H" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Raditya Hafizh Habibi</h1>
+      <p class="lead">Pelajar | SMKN 4 Padalarang</p>
+      <svg src="Waves.svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="10"
+          d="M0,64L20,80C40,96,80,128,120,149.3C160,171,200,181,240,192C280,203,320,213,360,224C400,235,440,245,480,229.3C520,213,560,171,600,149.3C640,128,680,128,720,160C760,192,800,256,840,266.7C880,277,920,235,960,202.7C1000,171,1040,149,1080,154.7C1120,160,1160,192,1200,192C1240,192,1280,160,1320,138.7C1360,117,1400,107,1420,101.3L1440,96L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Biodata -->
+    <section id="biodata">
+      <div class="container">
+        <div class="row g-3 text-center mb-3">
+          <div class="col">
+            <h2>Biodata</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-6">Nama : Raditya Hafizh Habibi</div>
+          <div class="col-md-6">Tempat, Tanggal Lahir : Cimahi, 16-03-2006</div>
+          <div class="col-md-6">Hobi : Grinding Game Online</div>
+          <div class="col-md-6">Status : Pelajar</div>
+          <div class="col-md-6">Jenis Kelamin : Laki-Laki</div>
+          <div class="col-md-6">Alamat : Ngamprah</div>
+        </div>
+      </div>
+      <svg src="Waves2.svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,192L30,186.7C60,181,120,171,180,149.3C240,128,300,96,360,112C420,128,480,192,540,186.7C600,181,660,107,720,96C780,85,840,139,900,165.3C960,192,1020,192,1080,186.7C1140,181,1200,171,1260,149.3C1320,128,1380,96,1410,80L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Biodata -->
+
+    <!-- Galeri -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Galeri Saya</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/1.jpg" class="card-img-top" alt="Project1" />
+              <div class="card-body">
+                <p class="card-text">Hanya Contoh Saja</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/2.jpg" class="card-img-top" alt="Project2" />
+              <div class="card-body">
+                <p class="card-text">Hanya Contoh Saja</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/3.jpg" class="card-img-top" alt="Project3" />
+              <div class="card-body">
+                <p class="card-text">Hanya Contoh Saja</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/JadiGini.jpg" class="card-img-top" alt="Project4" />
+              <div class="card-body">
+                <p class="card-text">Hanya Contoh Saja</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/SayaCatat.jfif" class="card-img-top" alt="Project5" />
+              <div class="card-body">
+                <p class="card-text">Hanya Contoh Saja</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg src="Waves.svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,128L48,144C96,160,192,192,288,181.3C384,171,480,117,576,106.7C672,96,768,128,864,133.3C960,139,1056,117,1152,117.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Galeri -->
+
+    <!-- Forms -->
+    <section id="forms">
+      <div>
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>Forms</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" />
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="3"></textarea>
+                </div>
+                <button onclick="Submit()" type="submit" class="btn btn-primary">Kirim</button>
+              </form>
+              <p id="demo"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg src="Waves.svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,256C672,288,768,288,864,277.3C960,267,1056,245,1152,224C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Forms -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white pb-5 text-center">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/raditya__nh/" class="text-white fw-bold">Raditya Hafizh Habibi</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
